@@ -1,0 +1,8 @@
+Plot:
+  Filename: "./output/query.txt"
+  Xstart: [86, 2]
+  Xend: [166, 2]
+  Ystart: [86, 3]
+  Yend: [166, 3]
+  Splitchar: " "
+  Legend: "BST"

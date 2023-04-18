@@ -1,0 +1,8 @@
+Plot:
+  Filename: "./output/query.txt"
+  Xstart: [2, 2]
+  Xend: [82, 2]
+  Ystart: [2, 3]
+  Yend: [82, 3]
+  Splitchar: " "
+  Legend: "Binary Search"
