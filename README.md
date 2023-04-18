@@ -26,8 +26,9 @@ numpy
 # Config
   There are two types of config.  
   #### The [CONFIG.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/CONFIG.yaml) 
-        set plot Title, X and Y axis name, Legend position  
-  #### The [config_subplot1.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/test1/config_subplot1.yaml) to set plot details, such as data range, data dir  
+        This config is to set plot Title, X and Y axis name, Legend position.  
+        Note that keep the "CONFIG.yaml" intact to prevent can't find file error.
+  #### The [config.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/test1/config_subplot1.yaml) to set plot details, such as data range, data dir  
   
   
   
