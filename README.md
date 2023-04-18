@@ -39,7 +39,7 @@ numpy
     ```
     --exper_dir "./your_directory" 
     ```
-    argument when running this program.  
+      argument when running this program.  
   
   
   
