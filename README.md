@@ -31,12 +31,15 @@ numpy
   
 # Config
   There are two types of config.  
-  #### The [CONFIG.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/CONFIG.yaml) 
-   ##### This config is to set plot Title, X and Y axis name, Legend position. (Note that please keep the "CONFIG.yaml" intact to prevent can't find file error)
-  #### The [config.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/test1/config_subplot1.yaml) 
-   ##### This config is to set plot details, such as data.txt location, data range, split character, Legend name.  
-   ##### The name of this type of file can be changed freely, however please put it under a folder. The name of folder is up to you, such as test1 in my repo, and use 
-    --exper_dir "./your_directory" argument when running this program.  
+ * The [CONFIG.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/CONFIG.yaml) 
+     * This config is to set plot Title, X and Y axis name, Legend position. (Note that please keep the "CONFIG.yaml" intact to prevent can't find file error)
+ * The [config.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/test1/config_subplot1.yaml) 
+    * This config is to set plot details, such as data.txt location, data range, split character, Legend name.  
+    * The name of this type of file can be changed freely, however please put it under a folder. The name of folder is up to you, such as test1 in my repo, and use 
+    ```
+    --exper_dir "./your_directory" 
+    ```
+    argument when running this program.  
   
   
   
