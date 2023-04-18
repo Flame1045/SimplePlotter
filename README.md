@@ -54,6 +54,10 @@ numpy
      * Yend : It's in [row, col] format, row and col count from 1. This indicate the ending point of data that belong to y-axis 
      * Splitchar : The way how each data is split. Supports space(' ') and other type of characters
      * Legend : The name you want to show on the final output graph
+     
+# Acknowledgement
+* [YACS Configs](https://github.com/rbgirshick/yacs)
+* [Matplotlib](https://matplotlib.org/stable/index.html)
       
   
   
