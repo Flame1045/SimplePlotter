@@ -1,4 +1,4 @@
-# Intro
+# Introductions
 This is a easy repo to help you plot like a genius!  
   
   
