@@ -55,6 +55,22 @@ numpy
      * Splitchar : The way how each data is split. Supports space(' ') and other type of characters
      * Legend : The name you want to show on the final output graph
      
+     
+# Repo explain
+```
+.
+├── data                 # Raw data to plot figure
+├── docs                 # Documentation files 
+├── test1                # Config of each subplot in a plot(figure) , noted that every plot(figure) need one folder like this
+├── yacs                 # Yacs source code
+├── CONFIG.yaml          # Config of plot(figure) Title, X and Y axis name, Legend position
+├── README.md            # Must read file
+├── plot.py              # SimplePlotter source code
+└── requirements.txt     # Environment setup 
+
+```
+     
+     
 # Acknowledgement
 * [YACS Configs](https://github.com/rbgirshick/yacs)
 * [Matplotlib](https://matplotlib.org/stable/index.html)
