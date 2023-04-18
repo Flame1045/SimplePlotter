@@ -53,7 +53,7 @@ numpy
      * Ystart : It's in [row, col] format, row and col count from 1. This indicate the starting point of data that belong to y-axis   
      * Yend : It's in [row, col] format, row and col count from 1. This indicate the ending point of data that belong to y-axis 
      * Splitchar : The way how each data is split. Supports space(' ') and other type of characters
-     * Legend : THe name you want to show on the final output graph
+     * Legend : The name you want to show on the final output graph
       
   
   
