@@ -1,5 +1,6 @@
 # Intro
 This is a easy repo to help you plot like a genius!
+![Like This](https://github.com/Flame1045/SimplePlotter/blob/main/docs/Figure_1.png)
 
 # Requirements
 ```
