@@ -1,0 +1,8 @@
+Plot:
+  Filename: "./data/query.txt"
+  Xstart: [254, 2]
+  Xend: [334, 2]
+  Ystart: [254, 3]
+  Yend: [334, 3]
+  Splitchar: " "
+  Legend: "MVEB"

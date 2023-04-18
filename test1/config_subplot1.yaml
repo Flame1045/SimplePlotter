@@ -1,5 +1,5 @@
 Plot:
-  Filename: "./output/query.txt"
+  Filename: "./data/query.txt"
   Xstart: [2, 2]
   Xend: [82, 2]
   Ystart: [2, 3]

@@ -1,0 +1,8 @@
+Plot:
+  Filename: "./data/query.txt"
+  Xstart: [170, 2]
+  Xend: [250, 2]
+  Ystart: [170, 3]
+  Yend: [250, 3]
+  Splitchar: " "
+  Legend: "B Tree"

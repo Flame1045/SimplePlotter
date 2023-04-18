@@ -71,14 +71,14 @@ def get_data(filename: str, xstart: list, xend: list, ystart, yend,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--experiment_dir', type=str, default='./test1', help='path to the file to be plotted')
+    parser.add_argument('--exper_dir', type=str, default='./test1', help='path to the file to be plotted')
     dir = parser.parse_args()
 
-    for _, _, files in os.walk(dir.experiment_dir):
+    for _, _, files in os.walk(dir.exper_dir):
         nums = len(files)
         for num in range(0, nums):
             cfg = get_default_config_per_plot()
-            cfg.merge_from_file(dir.experiment_dir + '/' + files[num])
+            cfg.merge_from_file(dir.exper_dir + '/' + files[num])
             cfg.freeze()
             X, Y = get_data(cfg.Plot.Filename, cfg.Plot.Xstart, cfg.Plot.Xend, 
                             cfg.Plot.Ystart, cfg.Plot.Yend, cfg.Plot.Splitchar)
