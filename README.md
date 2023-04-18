@@ -35,18 +35,18 @@ numpy
 # Config
   There are two types of config.  
  * The [CONFIG.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/CONFIG.yaml) 
-  * This config is to set plot Title, X and Y axis name, Legend position. (Note that please d'not change "CONFIG.yaml" name to prevent can't find file error)
-  * Param explain :
-   * Title : Can be any string 
-   * X and Y axis name : Can be any string 
-   * Legend position : 'best','upper right','upper left','lower left','lower right','right','center left','center right','lower center','upper center','center'
+   * This config is to set plot Title, X and Y axis name, Legend position. (Note that please d'not change "CONFIG.yaml" name to prevent can't find file error)
+   * Param explain :
+     * Title : Can be any string 
+     * X and Y axis name : Can be any string 
+     * Legend position : 'best','upper right','upper left','lower left','lower right','right','center left','center right','lower center','upper center','center'
  * The [config.yaml](https://github.com/Flame1045/SimplePlotter/blob/main/test1/config_subplot1.yaml) 
-    * This config is to set plot details, such as data.txt location, data range, split character, Legend name.  
-    * The name of this type of file can be changed freely, however please put it under a folder. The name of folder is up to you, such as test1 in my repo, and use the below argument when running this program.  
+   * This config is to set plot details, such as data.txt location, data range, split character, Legend name.  
+   * The name of this type of file can be changed freely, however please put it under a folder. The name of folder is up to you, such as test1 in my repo, and use the below argument when running this program.  
     ```
     --exper_dir "./your_directory" 
     ```
-    * Param explain : 
+   * Param explain : 
      * Filename : Path to your raw data that need to plot
      * Xstart : It's in [row, col] format, row and col count from 1. This indicate the starting point of data that belong to x-axis   
      * Xend : It's in [row, col] format, row and col starts from 1. This indicate the ending point of data that belong to x-axis  
