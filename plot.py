@@ -82,6 +82,9 @@ if __name__ == '__main__':
             cfg.freeze()
             X, Y = get_data(cfg.Plot.Filename, cfg.Plot.Xstart, cfg.Plot.Xend, 
                             cfg.Plot.Ystart, cfg.Plot.Yend, cfg.Plot.Splitchar)
+            order = np.argsort(X) 
+            X = np.array(X)[order] 
+            Y = np.array(Y)[order]
             plt.plot(X, Y, label=cfg.Plot.Legend)
 
     config = get_default_config()
